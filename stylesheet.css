@@ -90,7 +90,6 @@ nav li {
     display: flex;
     justify-content: space-evenly;
     flex: 0;
-    padding: 80px 0px 80px 0px;
     text-align: justify;
 
 }
@@ -99,7 +98,6 @@ nav li {
     width: 200px;
 }
 .citation {
-    padding: 20px;
     background-color: #A87C7C;
     width: 100%;
     color: white;
