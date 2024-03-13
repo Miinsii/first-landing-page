@@ -1,6 +1,11 @@
+section {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 body {
     background-color: #3E3232;
-    width: 100%;
+    margin: 0;
     color: white;
     font-size: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -74,6 +79,8 @@ nav li {
 .main-content {
     background-color: white;
     width: 100%;
+    margin: 0px;
+    padding: 50px;
     color: #A87C7C;
     text-align: center;
 }
@@ -91,6 +98,7 @@ nav li {
     justify-content: space-evenly;
     flex: 0;
     text-align: justify;
+    padding: 20px;
 
 }
 
@@ -100,10 +108,16 @@ nav li {
 .citation {
     background-color: #A87C7C;
     width: 100%;
+    margin: 0px;
     color: white;
-    text-align: justify;
+    text-align: center;
     font-size: 50px;
     font-style: italic;
+    padding: 20px;
+}
+
+.citation div {
+    margin: 100px 200px 50px 200px;
 }
 
 .citation footer {
@@ -111,9 +125,12 @@ nav li {
     font-size: 20px;
 }
 
+.end-page {
+    background-color: white;
+    padding: 100px;
+}
 .CTA {
-    margin: 50px;
-    padding: 10px;
+    padding: 50px;
     border-radius: 20px;
     background-color: #3E3232;
     color: white;
