@@ -1,9 +1,13 @@
 body {
     margin: 0px 50px 0px;
     background-color: #B2B377;
-    color: black;
+    color: white;
 
+}
 
+a {
+    text-decoration: none;
+    color: white;
 }
 
 header {
@@ -11,6 +15,9 @@ header {
     justify-content: space-between;
 }
 
+h1 {
+    font-size: 40px;
+}
 nav ul{
     display: flex;
     justify-content: space-around;
@@ -18,13 +25,33 @@ nav ul{
     list-style-type: none;
 }
 
-li {
+nav li {
     margin: 20px;
-    text-decoration: none;
 }
 
 .page-teaser {
     display: flex;
+    justify-content: center;
     margin: 50px;
+    padding-bottom: 50px;
 }
 
+.page-teaser img {
+    padding: 20px;
+    width: 396px; 
+    height: 263px;
+}
+
+.teaser-intro {
+    width: 50%;
+    height: 100px;
+}
+
+.visit-us {
+    font-size: 20px;
+    font-weight: bold;
+    color: #B2B377;
+    padding: 10px;
+    background-color: #F1F5A8;
+    border-radius: 30px;
+}
