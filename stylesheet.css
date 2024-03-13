@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+    display: flex;
+}
+
+header, .page-teaser {
+    background-color: #B2B377;
+    color: black;
+}
+
